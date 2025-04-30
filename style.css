@@ -1,0 +1,218 @@
+body{
+    margin: 0px;
+}
+
+header{
+    display:flex;
+    top:0;
+    width: 100%;
+    background-color: rgb(255, 255, 205);
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    color: black;
+    padding: 10px;
+    font-family: "Sofia", sans-serif;
+    font-weight: bold;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a{
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+nav a:hover{
+    background-color: rgb(255, 251, 147);
+      transition:0.5s;
+        box-shadow: 0px 0px 5px rgb(0, 0, 0);
+        scale:95%;
+        filter:drop-shadow(0px 0px 5px black);
+}
+
+img{
+    padding: 5px;
+    width: 80px;
+}
+
+#home{
+    width: 100%;
+    height: 700px;
+    background: url(background1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Twinkle Star";
+}
+
+#home div{
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+    padding-left: 400px;
+    padding-right: 400px;
+    font-size: larger;
+}
+
+#home .h2{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+#home a{
+    background-color: #0523aa;
+    padding: 10px 20px;
+    color: #fefefe;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#about{
+    background-color:bisque;
+    height: 600px;
+    text-align: center;
+    padding-top: 150px;
+    font-family: "Yeon Sung";
+}
+
+#about img{
+    width: 300px;
+    border-radius: 20px;
+}
+
+#about p{
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: large;
+}
+
+#product{
+    width: 100%;
+    height: 1180px;
+    background: url(background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#product .container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+#product .card{
+    background-color: plum;
+    text-align: center;
+    padding: 5px;
+    width: 250px;
+    height: 500px;
+    margin: 15px;
+    font-size: small;
+    font-family: "Agbalumo";
+    border-radius: 20px;
+}
+
+#product .card:hover{
+    box-shadow: 0 0 5px black;
+}
+
+.cardarea{
+    align-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+}
+
+#product .container .card img{
+    width: 60%;
+    padding-top: 10px;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+#product .container .card a{
+    color: black;
+    padding: 5px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+#product .container .card .button{
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#product .container .cardarea .card .button i:not(.fa) {
+    font-family: "Agbalumo";
+}
+
+#contact{
+    background-color:rgb(255, 199, 114);
+    height: 500px;
+    text-align: center;
+    padding: 100px;
+    margin: auto;
+    font-family: "ADLaM Display";
+    font-size: larger;
+}
+
+#contact img{
+    width: 300px;
+    border-radius: 20px;   
+}
+
+#contact a{
+    background-color: #6305aa;
+    padding: 10px 20px;
+    color: #fefefe;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+}
+
+#footer{
+    background-color: black;
+    height: 100px;
+}
+
+footer .medsos{
+    background-color: rgb(255, 255, 205);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer .medsos a{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 15px;
+    align-items: center;
+    color: black;
+}
+
+footer .medsos a:hover{
+    background-color: rgb(255, 251, 147);
+      transition:0.5s;
+        box-shadow: 0px 0px 5px rgb(0, 0, 0);
+        scale:95%;
+        filter:drop-shadow(0px 0px 5px black);
+}
+
